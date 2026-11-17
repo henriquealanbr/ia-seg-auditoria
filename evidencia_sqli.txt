@@ -1,0 +1,5 @@
+[ALERTA DE SEGURANÇÁ - OWASP Top 10]
+Vulnerabilidade detectada: SQL Injection (SQLi)
+Alvo: Endpoint de autenticação /login.php
+Payload injetado: ' OR '1'='1
+Resposta do Servidor: Erro na query SQL - Banco de dados PostgreSQL exposto. Dados confidenciais de funcionários retornados na interface.
